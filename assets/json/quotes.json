@@ -12,5 +12,12 @@
         "chapter": "",
         "quote": "Without music, life would be a mistake.",
         "url": "without-music"
+    },
+    {
+        "id": 3,
+        "publication": "The Gay Science",
+        "chapter": "62. Love",
+        "quote": "Love forgives the lover even his lust.",
+        "url": "love-forgives-the-lover"
     }
 ]

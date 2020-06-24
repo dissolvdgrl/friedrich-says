@@ -49,13 +49,19 @@ body {
 }
 
 header {
-    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 main {
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    height: 100vh;
+}
+
+#body-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 #fs-logo  {
@@ -71,6 +77,7 @@ main {
     text-decoration: none;
     text-align: right;
     padding-right: 1rem;
+    font-size: 1.5rem;
 }
 
 .subtitle {
@@ -87,6 +94,17 @@ main {
     100% {
         opacity: 1;
     }
+}
+
+#nietzsche-img {
+    display: flex;
+    align-items: flex-end;
+}
+
+#nietzsche-img img {
+    max-width: 100%;
+    display:block;
+    height: auto;
 }
 
 #quote-container {
@@ -118,4 +136,33 @@ footer {
     color: #A58723;
     font-family: 'din_regular', sans-serif;
     font-size: 0.75rem;
+}
+
+@media screen and (max-width: 576px) {
+    html {
+        padding: 1rem;
+    }
+
+    .logo-link, .subtitle {
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .container {
+        margin: 5rem 0;
+        height: auto;
+    }
+
+    #quote-container p {
+        text-align: center;
+    }
+
+    footer {
+        bottom: 0;
+    }
+
 }
