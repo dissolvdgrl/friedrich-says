@@ -19,5 +19,40 @@
         "chapter": "62. Love",
         "quote": "Love forgives the lover even his lust.",
         "url": "love-forgives-the-lover"
+    },
+    {
+        "id": 4,
+        "publication": "The Gay Science",
+        "chapter": "26. What is life?",
+        "quote": "Life — that is: continually shedding something that wants to die. Life — that is: being cruel and not only about us. Life — that is, then: being without reverence for those who are dying, who are wretched, who are ancient? Constantly being a murderer?  — And yet old Moses said: \"Thou shalt not kill.\"",
+        "url": "what-is-life"
+    },
+    {
+        "id": 5,
+        "publication": "The Gay Science",
+        "chapter": "34. Historia abscondita",
+        "quote": "Every great human being exerts a retroactive force: for for his sake all of history is placed in the balance again, and a thousand secrets of the past crawl out of their hiding places — into his sunshine. There is not way of telling what may yet become part of their history. Perhaps the past is still essentially undiscovered! So many retroactive forces are still needed!",
+        "url": "historia-abscondita"
+    },
+    {
+        "id": 6,
+        "publication": "The Gay Science",
+        "chapter": "38. The explosive ones",
+        "quote": "When one considers how much the energy of young men needs to explode, one is not surprised that they decide for this cause or that without being at all subtle or choosy. What attracts them is the sight of the zeal that surrounds a cause — as it were, the sight of the burning fuse, and not the cause itself. Subtle seducers therefore know the art of arousing expectations of an explosion while making no effort to furnish reasons for their cause: reasons are not what wins over such powder kegs.",
+        "url": "the-explosive-ones"
+    },
+    {
+        "id": 7,
+        "publication": "The Gay Science",
+        "chapter": "41. Against remorse",
+        "quote": "A thinker sees his own actions as experiments and questions — as attempts to find out something. Success and failure are for him answers above all. To be annoyed or feel remorse because something goes wrong — that he leaves to those who act because they have received orders and who have to reckon with a beating when his lordship is not satisfied witht the result.",
+        "url": "against-remorse"
+    },
+    {
+        "id": 8,
+        "publication": "The Gay Science",
+        "chapter": "52. What others know about us",
+        "quote": "What we know about ourselves and remember is not so decisive for the happiness of our life as people suppose. One day that which others know about us (or think they know) assaults us — and then we realise that this is more powerful. It is easier to cope with a bad conscience than to cope with a bad reputation.",
+        "url": "what-others-know-about-us"
     }
 ]
