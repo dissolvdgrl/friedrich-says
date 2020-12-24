@@ -33,7 +33,8 @@
                     copyTxt.innerText = 'Get link';
                     copyTxt.classList.remove('copied');
                 }
-                navigator.clipboard.writeText(`https://friedrichsays.com/${this.currentQuote.url}`);
+
+                navigator.clipboard.writeText(`http://localhost:3000/quotes/${this.currentQuote.url}`);
                 copyTxt.classList.add('copied');
                 copyTxt.innerText = 'Copied!';
                 timeoutID = window.setTimeout(replaceTxt, 1000);
@@ -66,37 +67,3 @@
         }
     }
 </script>
-
-<style lang="scss">
-    #quote-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .quote {
-        margin-top: 1rem;
-    }
-
-    .share-container {
-        display: flex;
-        margin-top: 1rem;
-
-        img {
-            margin-right: 0.5rem;
-        }
-    }
-
-    #copy-link {
-        cursor: pointer;
-        opacity: 0.5;
-        transition: all 0.5s ease;
-        text-decoration: none;
-        color: #A58723;
-    }
-
-    .copied {
-        opacity: 1 !important;
-    }
-
-</style>

@@ -14,6 +14,9 @@
         </div>
         <nuxt />
     </main>
+    <footer>
+    <p>© friedrichsays.com 2020</p>
+    </footer>
   </div>
 </template>
 

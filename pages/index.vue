@@ -1,11 +1,5 @@
 <template>
-  <div class="container">
-        <quote />
-    </main>
-    <footer>
-        <p>© friedrichsays.com 2020</p>
-    </footer>
-  </div>
+    <quote />
 </template>
 
 <script>
