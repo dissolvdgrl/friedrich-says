@@ -10,7 +10,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "prod": "nuxt build && pm2 restart ./ecosystem.config.js"
+    "prod": "nuxt build && nuxt generate && pm2 restart ./ecosystem.config.js"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
