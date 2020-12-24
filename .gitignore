@@ -88,3 +88,7 @@ sw.*
 
 # Vim swap files
 *.swp
+
+#other
+todo.txt
+todo2.txt
