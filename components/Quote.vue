@@ -34,7 +34,7 @@
                     copyTxt.classList.remove('copied');
                 }
 
-                navigator.clipboard.writeText(`http://localhost:3000/quotes/${this.currentQuote.url}`);
+                navigator.clipboard.writeText(`https://friedrichsays.com/quotes/${this.currentQuote.url}`);
                 copyTxt.classList.add('copied');
                 copyTxt.innerText = 'Copied!';
                 timeoutID = window.setTimeout(replaceTxt, 1000);
