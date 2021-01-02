@@ -54,5 +54,33 @@
         "chapter": "52. What others know about us",
         "quote": "What we know about ourselves and remember is not so decisive for the happiness of our life as people suppose. One day that which others know about us (or think they know) assaults us — and then we realise that this is more powerful. It is easier to cope with a bad conscience than to cope with a bad reputation.",
         "url": "what-others-know-about-us"
+    },
+    {
+        "id": 9,
+        "publication": "The Gay Science",
+        "chapter": "51. Truthfulness",
+        "quote": "I favor any skepsis to which I may reply: \"Let us try it!\" But I no longer wish to hear anything of all those things and questions that do not permit any experiment. This is the limit of my\"truthfulness\"; for there courage has lost its right.",
+        "url": "truthfulness"
+    },
+    {
+        "id": 10,
+        "publication": "The Gay Science",
+        "chapter": "63. Woman in music",
+        "quote": "Why is it that warm, rainy winds inspire a musicla mood and the inventive pleasure of melodies? Are they not the same winds that fill the churches and arouse thoughts of love in women?",
+        "url": "woman-in-music"
+    },
+    {
+        "id": 11,
+        "publication": "The Gay Science",
+        "chapter": "64. Skeptics",
+        "quote": "I am afraid that old women are more skeptical in their most secret heart of hearts than any man: they consider the superficiality of existence its essence, and all virtue and prodndity is to them merely a veil over this \"truth\", a very welcome veil over a pudendum - in other words, a matter of decency and shame, and no more than that.",
+        "url": "skeptics"
+    },
+    {
+        "id": 12,
+        "publication": "The Gay Science",
+        "chapter": "65. Devotion",
+        "quote": "There are noble women who are afflicted with a certain poverty of the spirit, and they know no better way to express their deepest devotion than to offer their virtue and shame. They own nothing higher. Often this present is accepted without establishing as profound an obligation as the donors had assumed. A very melancholy story!",
+        "url": "devotion"
     }
 ]

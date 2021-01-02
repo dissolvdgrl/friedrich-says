@@ -16,11 +16,9 @@
 
     export default {
         data() {
-            let quotesData = Quotes;
             return {
-                quotes: quotesData,
-                currentQuote: quotesData[0],
-                timer: ''
+                quotes: Quotes,
+                currentQuote: Quotes[0]
             }
         },
 
@@ -40,30 +38,14 @@
                 timeoutID = window.setTimeout(replaceTxt, 1000);
             },
 
-            clock() {
-                // https://proglogic.com/code/javascript/time/24hourclock.php
-                let time = new Date();
-                let hour = time.getHours();
-                let mins = time.getMinutes();
-                let sec = time.getSeconds();
-
-                if(hour < 10)
-                    hour = '0' + hour;
-                if(mins < 10)
-                    mins = '0' + mins;
-                if(sec < 10)
-                    sec = '0' + sec;
-
-                this.timer = `${hour}:${mins}:${sec}`;
+            randomize() {
+                this.currentQuote = this.quotes[Math.floor(Math.random()*this.quotes.length)];
+                return this.currentQuote;
             }
         },
 
         mounted() {
-
-            setTimeout(this.clock(), 1000);
-            if(this.timer == '00:00:00')
-                // change the quote
-                this.currentQuote = this.quotes[Math.floor(Math.random()*this.quotes.length)];
+            this.randomize();
         }
     }
 </script>

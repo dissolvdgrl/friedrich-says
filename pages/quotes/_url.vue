@@ -42,32 +42,7 @@
                 copyTxt.classList.add('copied');
                 copyTxt.innerText = 'Copied!';
                 timeoutID = window.setTimeout(replaceTxt, 1000);
-            },
-
-            clock() {
-                // https://proglogic.com/code/javascript/time/24hourclock.php
-                let time = new Date();
-                let hour = time.getHours();
-                let mins = time.getMinutes();
-                let sec = time.getSeconds();
-
-                if(hour < 10)
-                    hour = '0' + hour;
-                if(mins < 10)
-                    mins = '0' + mins;
-                if(sec < 10)
-                    sec = '0' + sec;
-
-                this.timer = `${hour}:${mins}:${sec}`;
             }
-        },
-
-        mounted() {
-
-            setTimeout(this.clock(), 1000);
-            if(this.timer == '00:00:00')
-                // change the quote
-                this.currentQuote = this.quotes[Math.floor(Math.random()*this.quotes.length)];
         }
     }
 </script>
